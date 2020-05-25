@@ -14,10 +14,7 @@ BP = gg.alert(' 🔹   🇰🇼  سـكـربـت هـــدام  🇰🇼   �
 '🔹بـــدء🔹') 
 if BP == 1 then HOME() end
 end
-function LISTC()
-BP = gg.alert('Creator and developer in telegram: @PLAYDF25 Official telegram channel: @PUBG_MOBILE_CHEAT ✴️ PMC VIP Script 5.2 Patch 0.2 ✴️\n__________________________________________\n   Updated menu Wallhack, Colors, added new Headshots, Magic Bullets, returned More Damage, added Ultra Aimbot, updated Recoils, added Esp v2, new One Click Menu added.\n__________________________________________\n\nCreator and developer in telegram:\n@PLAYDF25\n\nOfficial telegram channel:\n@PUBG_MOBILE_CHEAT\n\n__________________________________________','OK')
-if BP == 1 then startscript() end
-end
+
 
 HOME=1
 function HOME()
@@ -395,7 +392,7 @@ end
 function Zoom4X()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("15", gg.TYPE_FLOAT)
@@ -404,7 +401,7 @@ end
 function Zoom6X()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("14", gg.TYPE_FLOAT)
@@ -413,7 +410,7 @@ end
 function Zoom8X()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("13", gg.TYPE_FLOAT)
@@ -422,7 +419,7 @@ end
 function Zoom15X()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("9", gg.TYPE_FLOAT)
